@@ -1,0 +1,23 @@
+Backend:
+
+    NodeJS
+
+Database:
+
+    MongoDB
+
+Packages/Modules:
+
+    ExpressJS (Framework based on NodeJS)
+    Mongoose (Object Data Modeling [ODM] library)
+    EJS (Embedded JavaScript Templating Engine)
+    Multer (Image Uplaoding)
+    Express Session (Storing session messages)
+    Dotenv (Environment variables)
+    Nodemon (Sever monitoring)
+
+FrontEnd library:
+
+    Bootstrap 5 (Designs)
+    DataTable (Pagination)
+    Font awesome (Icons)
