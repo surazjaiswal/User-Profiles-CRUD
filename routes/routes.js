@@ -17,7 +17,7 @@ var upload = multer({ storage });
 
 // insert user to database post route
 router.post("/add", upload.single("image"), (req, res) => {
-  console.log(req.file);
+  // console.log(req.file);
   const user = new User({
     name: req.body.name,
     email: req.body.email,
@@ -82,8 +82,8 @@ router.get("/edit/:id", (req, res) => {
 
 // update user route
 router.post("/update/:id", upload.single("image"), (req, res) => {
-  console.log(req.body);
-  console.log(req.file);
+  // console.log(req.body);
+  // console.log(req.file);
   let id = req.params.id;
   let new_image = "";
   if (req.file) {
